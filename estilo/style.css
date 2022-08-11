@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Amatic SC', cursive;
+}
+
+body {
+    
+    background-color: black;
+    color: white;
+}
+header {
+    padding-top: 50px ;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    min-width: 280px;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+main {
+    height: 100vh;
+}
+main img {
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+main article > p {
+    font: normal normal 2.1em var(--font2);
+    color: black;
+    background-color: white;
+    text-align: justify;
+    text-indent: 30px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    padding: 12px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.24);
+    
+    
+}
+
+footer {
+    
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: small;
+}
