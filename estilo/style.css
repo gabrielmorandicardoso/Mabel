@@ -9,16 +9,16 @@
 
 :root {
     --font1: Verdana, Geneva, Tahoma, sans-serif;
-    --font2:'Amatic SC', cursive;
+    --font2: 'Amatic SC', cursive;
 }
 
 body {
-    
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
+
 header {
-    padding-top: 50px ;
+    padding-top: 50px;
     text-align: center;
     margin: auto;
 }
@@ -33,34 +33,24 @@ nav {
 main {
     height: 100vh;
 }
-main img {
-    
-    
-}
 
-nav a {
-    text-decoration: none;
-    color: white;
-    
-}
-
-main article > p {
-    font: normal normal 2.1em var(--font2);
-    color: black;
-    background-color: white;
+main section > p{
     text-align: justify;
     text-indent: 30px;
-    min-width: 280px;
-    max-width: 800px;
-    margin: auto;
-    padding: 12px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.24);
-    
-    
+    font: normal normal 2em var(--font2)
+}
+
+section {
+    padding-top: 30vh;
+    padding-bottom: 50vh;
+    padding-left: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 footer {
-    
     color: black;
     background-color: white;
     text-align: center;
