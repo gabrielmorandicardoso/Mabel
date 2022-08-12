@@ -23,7 +23,7 @@
 
 body {
     min-height: 100vh;
-    min-width: 40vw;
+    min-width: 20vw;
     background-image: linear-gradient(to bottom, rgb(65, 24, 22), black);
     color: black;
 }
