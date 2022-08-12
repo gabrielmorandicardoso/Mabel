@@ -13,7 +13,8 @@
 }
 
 body {
-    background-color: white;
+    min-width: 100vh;
+    background-image: linear-gradient(to bottom, rgb(65, 24, 22), black);
     color: black;
 }
 
@@ -23,6 +24,10 @@ header {
     margin: auto;
 }
 
+header h1 {
+    
+}
+
 nav {
     min-width: 280px;
     max-width: 600px;
@@ -30,9 +35,12 @@ nav {
     padding-top: 30px;
 }
 
-main {
-    height: 100vh;
+nav a {
+    text-decoration: none;
+    color: black;
 }
+
+
 
 main section > p{
     text-align: justify;
@@ -41,13 +49,43 @@ main section > p{
 }
 
 section {
+    background-color: rgba(169, 169, 169, 0.274);
+    background-size: cover;
+    background-attachment: fixed;
     padding-top: 30vh;
     padding-bottom: 50vh;
     padding-left: 50px;
 }
-nav a {
-    text-decoration: none;
-    color: black;
+
+section#img1 {
+    color: white;
+    background-image: url(../imagens/menina.jpg);
+    background-position: right bottom;
+    margin-bottom: 110vh;
+}
+
+section#img2 {
+    color: white;
+    background-image: url(../imagens/arma.jpg);
+    margin-bottom: 110vh;
+}
+
+section#img3 {
+    color: white;
+    background-image: url(../imagens/mansao.jpg);
+    margin-bottom: 110vh;
+}
+
+section#img4 {
+    color: white;
+    background-image: url(../imagens/amigodavi.jpg);
+    margin-bottom: 110vh;
+}
+
+section#img5 {
+    background-image: url(../imagens/poderosa.jpg);
+    color: white;
+    margin-bottom: 10vh;
 }
 
 footer {
