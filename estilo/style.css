@@ -108,26 +108,26 @@ section#img1 {
     background-image: url(../imagens/menina.jpg);
     background-position: right bottom;
     margin-top: 50px;
-    margin-bottom: 100vh;
+    margin-bottom: 50vh;
 }
 
 section#img2 {
     color: white;
     background-image: url(../imagens/arma.jpg);
-    margin-bottom: 100vh;
+    margin-bottom: 50vh;
 }
 
 section#img3 {
     color: white;
     background-image: url(../imagens/mansao.jpg);
-    margin-bottom: 100vh;
+    margin-bottom: 50vh;
     padding-left: 40vw;
 }
 
 section#img4 {
     color: white;
     background-image: url(../imagens/amigodavi.jpg);
-    margin-bottom: 100vh;
+    margin-bottom: 50vh;
 }
 
 section#img5 {
