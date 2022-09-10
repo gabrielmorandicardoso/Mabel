@@ -105,7 +105,7 @@ section {
 
 section#img1 {
     color: white;
-    background-image: url(../imagens/menina.jpg);
+    background-image: url(../imagens/primeira.jpg);
     background-position: right bottom;
     margin-top: 50px;
     margin-bottom: 50vh;
@@ -113,25 +113,25 @@ section#img1 {
 
 section#img2 {
     color: white;
-    background-image: url(../imagens/arma.jpg);
+    background-image: url(../imagens/segunda.jpg);
     margin-bottom: 50vh;
 }
 
 section#img3 {
     color: white;
-    background-image: url(../imagens/mansao.jpg);
+    background-image: url(../imagens/terceira.jpg);
     margin-bottom: 50vh;
     padding-left: 40vw;
 }
 
 section#img4 {
     color: white;
-    background-image: url(../imagens/amigodavi.jpg);
+    background-image: url(../imagens/quarta.jpg);
     margin-bottom: 50vh;
 }
 
 section#img5 {
-    background-image: url(../imagens/poderosa.jpg);
+    background-image: url(../imagens/quinta.jpg);
     color: white;
     margin-bottom: 10vh;
 }
